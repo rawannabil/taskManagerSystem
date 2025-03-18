@@ -1,0 +1,46 @@
+.btn-custom-save {
+    background-color: #dc3545;
+    color: white; 
+    border: 1px solid #d81818; 
+    padding: 10px 20px; 
+    border-radius: 5px;
+    font-size: 16px; 
+    transition: background-color 0.3s ease; 
+  }
+  
+  .btn-custom-save:hover {
+    background-color: #741313; 
+    border-color: #751616; 
+  }
+
+.task-form {
+    border: 2px solid #ccc; 
+    padding: 30px;  
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  }
+  .required {
+    color: rgb(206, 15, 15);
+    font-size: 1.2em;
+    margin-left: 5px;
+  }
+  
+.btn-custom-back {
+    padding: 10px 20px;
+    background-color: #6c757d;  
+    color: white;
+    border: none;
+    text-decoration: none;  
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .btn-custom-back:hover {
+    background-color: #5a6268; 
+  }
+  .button-container {
+    position: absolute;
+    top: 20px; 
+    right: 20px;
+    z-index: 10; 
+  }

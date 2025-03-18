@@ -1,0 +1,89 @@
+
+body {
+    background-color: #f0f0f0;  
+    font-family: Arial, sans-serif;
+  }
+  
+  .filters-box {
+    background-color: #ffffff; 
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .d-flex {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    flex-wrap: wrap; 
+  }
+  
+  .filter-row {
+    width: 48%; 
+    margin-bottom: 10px;
+  }
+  
+  input.form-control, select.form-select {
+    border-radius: 4px;
+    padding: 8px;
+    width: 100%;  
+  }
+  
+  label.form-label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  table {
+    background-color: #ffffff; 
+    margin-top: 20px;
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+  }
+  
+  th, td {
+    text-align: center;
+    padding: 10px;
+  }
+  
+  
+  .completed {
+    color: #80ca91; 
+  }
+  
+  .incomplete {
+    color: #f8d7da; 
+  }
+  
+  table .btn {
+    padding: 5px 10px;
+  }
+  
+  table .btn-success {
+    background-color: #28a745;
+  }
+  
+  table .btn-danger {
+    background-color: #dc3545;
+  }
+  
+  table .btn:hover {
+    opacity: 0.8;
+  }
+.btn-custom-gray {
+    background-color: #808080; 
+    color: white; 
+    border: 1px solid #808080; 
+    padding: 10px 20px; 
+    border-radius: 5px;
+    font-size: 16px; 
+    transition: background-color 0.3s ease; 
+  }
+  
+  .btn-custom-gray:hover {
+    background-color: #666666; 
+    border-color: #666666; 
+  }
+  
