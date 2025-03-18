@@ -59,6 +59,18 @@ git clone https://github.com/rawannabil/taskManagerList
 - npm start
 - the frontend interface will be running on http://localhost:3000
 
+**full project** :
+- in the root run npm install concurrently
+- add this to package.json 
+{"scripts": {
+  "start": "concurrently \"npm run start:backend\" \"npm run start:frontend\"",
+  "start:backend": "cd task-manager-backend && node server.js",
+  "start:frontend": "cd task-manager-frontend && npm start"
+}
+}
+- npm start
+
+
 
 
 
